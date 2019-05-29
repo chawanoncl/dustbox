@@ -12,9 +12,9 @@ Components Used:
 
 ThingSpeak:
 
-- ThingSpeak http://www.thingspeak.com is an open “Internet of Things” application and API to store and retrieve data from things using HTTP over the Internet or via a Local Area Network. With ThingSpeak, you can create sensor logging applications, location tracking applications, and a social network of things with status updates.
+- [ThingSpeak](http://www.thingspeak.com) is an open “Internet of Things” application and API to store and retrieve data from things using HTTP over the Internet or via a Local Area Network. With ThingSpeak, you can create sensor logging applications, location tracking applications, and a social network of things with status updates.
 
-- ThingSpeak is available on the ThingSpeak Community http://community.thingspeak.com/ site which features a Blog http://community.thingspeak.com/ Forum http://community.thingspeak.com/forum/ Documentation https://thingspeak.com/docs and Tutorials https://thingspeak.com/docs/tutorials.
+- ThingSpeak is available on the [ThingSpeak Community](http://community.thingspeak.com/) site which features a [Blog](http://community.thingspeak.com/),[Forum](http://community.thingspeak.com/forum/),[Documentation](https://thingspeak.com/docs) and [Tutorials](https://thingspeak.com/docs/tutorials)
 
 
  Circuit Diagram:
@@ -23,3 +23,9 @@ ThingSpeak:
 
  Connect to ThingSpeak:
  ![Prototype](doc/images/thingspeak_exam.JPG?raw=true=60x)
+ 
+ 
+Connect to Thingspeak via "dustBox.ino" [Example](https://www.mathworks.com/help/thingspeak/read-and-post-temperature-data.html)
+
+	String urlTP = "thingspeak api" + String(data.PM_AE_UG_1_0) + "&field2=" + String(data.PM_AE_UG_2_5) + "&field3=" + String(data.PM_AE_UG_10_0);
+ 
