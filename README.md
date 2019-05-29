@@ -10,3 +10,7 @@ Components Used:
 - PMS 3003 PM2.5 Plantower Technology
 - NodeMCU (Version 3)
 - Pin Adapter SG00343
+
+ Circuit Diagram:
+
+ ![Schema](doc/images/circuit_diagram.jpg?raw=true=20x)
